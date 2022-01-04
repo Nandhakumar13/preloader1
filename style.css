@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+	font-family: 'Courier Prime', monospace;
+}
+.ele{
+	position: relative;
+	
+}
+.ele div{
+	box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+	
+	
+}
+.one{
+	width: 40px;
+	height: 150px;
+	border-radius: 8px;
+	position: relative;
+	z-index: 2;
+	background: #fff;
+}
+.two{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 50%;
+	border-radius: 10px;
+	transform:translate(-23px, -2px) rotate(50deg);
+	box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+	background: #fff;
+}
+
+.character-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.three,.four{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border: 38px solid #fff;
+	background: transparent;
+	border-radius: 50%;
+}
+.ele-2{
+	transform: translateX(-15px);
+}
+.ele-3{
+	transform: translateX(-40px);
+	position: relative;
+	z-index: -1;
+}
+
+	.text-box{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		left: -16px;
+		flex-direction: column;
+		position: relative;
+		/*font-family: "poppins",sans-serif;*/
+
+	}
+	.text-box h2{
+		font-size: 90px;
+		color: #fff;
+		text-transform:uppercase;
+
+	}
+	.text-box p{
+		font-size: 24px;
+		color: #ffff;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
